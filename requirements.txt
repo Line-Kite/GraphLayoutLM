@@ -1,0 +1,6 @@
+accelerate==0.18.0
+setuptools==58.0.4
+datasets==2.3.2
+transformers==4.28.1  
+timm==0.4.12
+seqeval==1.2.2
