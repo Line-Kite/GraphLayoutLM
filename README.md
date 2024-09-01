@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 Download the model weights and move it to a new directory named "pretrained".
 
-Download the [CORD](https://huggingface.co/datasets/naver-clova-ix/cord-v2) dataset and move it to a new directory named "datasets".
+Download the [CORD](https://drive.google.com/drive/folders/14OEWr86qotVBMAsWk7lymMytxn5u-kM6) dataset and move it to a new directory named "datasets".
 
 #### base
 
