@@ -14,29 +14,33 @@ pip install -r requirements.txt
 
 
 ## Pre-trained Models
+
+**Password: 2023**
+
 | Model               | Model Name (Path)                                                                                              | 
 |---------------------|----------------------------------------------------------------------------------------------------------------|
-| graphlayoutlm-base  | [graphlayoutlm-base](https://drive.google.com/drive/folders/1KV2r4crHcGoTKM7DvEIN6BWEMEdV9tIZ?usp=drive_link)  |
-| graphlayoutlm-large | [graphlayoutlm-large](https://drive.google.com/drive/folders/1-zM5L34quKQwfvROvlK7UJWU6HKAGAmF?usp=drive_link) |
+| graphlayoutlm-base  | [graphlayoutlm-base](https://pan.baidu.com/s/1xc6kDOc_CWTXYbGMwrocHQ)  |
+| graphlayoutlm-large | [graphlayoutlm-large](https://pan.baidu.com/s/1uyF-dS7vcY0-fUT5MXibdA) |
 
 
 ## Finetuning Examples
 
-## CORD
+### CORD
 
+**Password: 2023**
 
   |Model on CORD                                                                                                                | precision | recall |    f1    | accuracy |
   |:---------------------------------------------------------------------------------------------------------------------------:|:---------:|:------:|:--------:|:--------:|
-  | [graphlayout-base-finetuned-cord](https://drive.google.com/drive/folders/1F593PVKVGFIfpJyRSiMZmZywZevmlKhs?usp=drive_link)  |   0.9724  | 0.9760 |  0.9742  |  0.9813  |
-  | [graphlayout-large-finetuned-cord](https://drive.google.com/drive/folders/1ZZzxG2qDnkoiADovZLovIxdhwwuqJfPc?usp=drive_link) |   0.9791  | 0.9805 |  0.9798  |  0.9839  |
+  | [graphlayout-base-finetuned-cord](https://pan.baidu.com/s/1lLiDR4Cw07HRcnlZ4qjSdw)  |   0.9724  | 0.9760 |  0.9742  |  0.9813  |
+  | [graphlayout-large-finetuned-cord](https://pan.baidu.com/s/1tZs60aTzQp1esaj0Bw8C9g) |   0.9791  | 0.9805 |  0.9798  |  0.9839  |
 
-### finetune
+#### finetune
 
 Download the model weights and move it to a new directory named "pretrained".
 
 Download the [CORD](https://drive.google.com/drive/folders/14OEWr86qotVBMAsWk7lymMytxn5u-kM6) dataset and move it to a new directory named "datasets".
 
-#### base
+**base**
 
 ```
 cd examples
@@ -52,7 +56,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch --main_process_port 20655 run_cor
     --dataloader_num_workers 8 --overwrite_output_dir
 ```
 
-#### large
+**large**
 
 ```
 cd examples
